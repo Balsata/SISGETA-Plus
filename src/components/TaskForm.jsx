@@ -56,8 +56,8 @@ const TaskForm = ({ handleInputChange, handleSubmit, btnTitle, task }) => {
 
             <div className="form-group">
                 <label className="form-label">Descripción</label>
-                <span className="counter_letters">{ description.length }/180</span>
-                <textarea value={ description } maxLength="180" name="description" onChange={handleChange} className={`form-control ${ errors.description.length > 0 ? "is-invalid" : null }`} />
+                <span className="counter_letters">{ description.length }/100</span>
+                <textarea value={ description } maxLength="100" name="description" onChange={handleChange} className={`form-control ${ errors.description.length > 0 ? "is-invalid" : null }`} />
                 <div className="invalid-feedback">
                     {errors.description.map(error => (
                         error
