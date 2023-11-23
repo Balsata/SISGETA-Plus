@@ -1,9 +1,6 @@
-
 import React  from 'react'
 
-// Styles
 import '../styles/ItemTask.css'
-
 
 const ItemTask = ({ data, handleDelete, handleUpdate, handleDetail }) => {
 

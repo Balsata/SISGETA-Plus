@@ -1,7 +1,5 @@
-
 import React from 'react'
 
-// Styles
 import '../styles/FloatingButton.css'
 
 

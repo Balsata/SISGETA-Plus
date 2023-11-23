@@ -1,5 +1,3 @@
-
-
 export class TaskRepository {
 
     static getTasks() {
@@ -59,7 +57,7 @@ export class TaskRepository {
         return tasks
     }
 
-    // Generar un ID que no exista
+    // Generar un ID como placeholder
     static generateId(tasks){
         do {
             var id = Math.floor((1 + Math.random()) * 0x10000).toString(16).substring(1)

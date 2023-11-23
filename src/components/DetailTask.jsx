@@ -1,8 +1,4 @@
-
 import React from 'react'
-
-// Styles
-
 
 const DetailTask = ({ data }) => {
 

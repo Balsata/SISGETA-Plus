@@ -1,9 +1,7 @@
 
 import React, { useState } from 'react'
 
-// Components
 import TaskForm from './TaskForm';
-import '../styles/CreateTaskForm.css'
 
 
 const CreateTaskForm = ({ handleCreateTask }) => {

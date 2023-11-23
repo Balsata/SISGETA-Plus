@@ -1,8 +1,6 @@
 
 import React from 'react'
 
-// Styles
-import '../styles/LayoutModal.css'
 import Modal from 'react-bootstrap/Modal'
 
 

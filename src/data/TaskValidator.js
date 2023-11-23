@@ -1,5 +1,3 @@
-
-
 class TaskValidator {
 
     static validate(task){
@@ -13,12 +11,12 @@ class TaskValidator {
             color: []
         }
 
-        if (task.name.length <= 10 || task.name.length > 50) {
+        if (task.name.length < 7 || task.name.length > 50) {
             errors.name.push("La longitud permitida es 7 - 50 caracteres")
             isInvalid = true
         }
 
-        if (task.description.length <= 15 || task.description.length > 180) {
+        if (task.description.length < 15 || task.description.length > 180) {
             errors.description.push("La longitud permitida es 15 - 180 caracteres")
             isInvalid = true
         }
